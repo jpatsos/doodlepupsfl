@@ -1,0 +1,125 @@
+.container {
+	@include outer-container;
+}
+
+.row {
+	width: 100%;
+	padding: 0 20px;
+	
+	&:before,
+	&:after {
+		content:" "; 
+		display:table;
+	}
+	
+	
+	
+	&:after {
+		clear:both;
+	}
+	
+	zoom:1;
+}
+
+.one {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(1);
+	}
+}
+.two {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(2);
+	}
+}
+.three {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(3);
+	}
+}
+.one-three {
+	@include span-columns(3);
+}
+.two-three {
+	@include span-columns(2);
+	@include media(min-width 769px) {
+		@include span-columns(3);
+	}
+}
+.four {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(4);
+		&.large {
+			padding-right: 20px;
+		}
+	}
+}
+.five {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(5);
+	}
+}
+.six {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(6);
+		&.large {
+			padding-right: 20px;
+		}
+	}
+}
+.six-two {
+	@include span-columns(6);
+}
+.seven {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(7);
+	}
+}
+.eight {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(8);
+	}
+}
+.nine {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(9);
+	}
+}
+.ten {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(10);
+	}
+}
+.eleven {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(11);
+	}
+}
+.twelve {
+	@include span-columns(1);
+	@include fill-parent;
+	@include media(min-width 769px) {
+		@include span-columns(12);
+	}
+}
