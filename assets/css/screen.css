@@ -2514,6 +2514,16 @@ header#featured {
     header#featured {
       height: 710px; } }
 
+.puppy-video {
+  padding: 60px 0; }
+  .puppy-video .container {
+    height: 400px; }
+  .puppy-video .container iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important; }
+
 .my-photoset {
   /* General photoset style */ }
   .my-photoset hr {
