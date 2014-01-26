@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* @import "compass/reset"; */
 *,
 *:after,
@@ -2251,7 +2251,7 @@ p {
   #nav .small-nav {
     display: none; }
   #nav.stuck {
-    background: #f16d76;
+    background: #d4333e;
     padding: 0;
     -webkit-transition: background .2s linear;
     -moz-transition: background .2s linear;
@@ -2617,6 +2617,7 @@ header#featured {
 
 .update {
   background: #6fc5ef;
+  background: #a41322;
   padding: 20px 0; }
   .update h2 {
     color: #fff;
@@ -2625,6 +2626,7 @@ header#featured {
     text-transform: none; }
     .update h2 span {
       color: #5da4c7;
+      color: #760e19;
       display: block;
       font-size: 24px; }
     .update h2 span.age {
@@ -2643,7 +2645,7 @@ header#featured {
   color: #757575;
   text-decoration: none; }
   #pups a:hover {
-    color: #f16d76; }
+    color: #d4333e; }
   #pups a figcaption {
     text-align: center;
     font-size: 28px; }
@@ -2673,10 +2675,10 @@ header#featured {
   background: black; }
 
 .submit-button {
-  background: #f1727a;
+  background: #d53742;
   color: #fff; }
   .submit-button hover {
-    background: #f05f69; }
+    background: #cd2b36; }
 
 .parents {
   background: #f2f2f2;
@@ -2689,7 +2691,7 @@ header#featured {
     .parents h3.boy {
       color: #6fc5ef; }
     .parents h3.girl {
-      color: #f16d76; }
+      color: #d4333e; }
   .parents .parent {
     margin-bottom: 20px; }
   .parents p {
@@ -2703,7 +2705,7 @@ header#featured {
       margin: 0; } }
 
 .testimonials {
-  background: #f16d76;
+  background: #d4333e;
   color: #fff;
   padding: 60px 0;
   text-align: left; }
@@ -2770,13 +2772,13 @@ header#featured {
   height: 300px; }
 
 #footer {
-  background: #f16d76;
+  background: #d4333e;
   color: #fff; }
   #footer a {
     color: #fff;
     text-decoration: none; }
     #footer a:hover {
-      color: #d4434d; }
+      color: #8b353a; }
   #footer .eight ul {
     list-style: none;
     padding: 0;
